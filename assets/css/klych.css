@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Red+Hat+Display:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo_menu{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.tamano_menu{
+    width: 1140px;
+    height: 84.38px;
+}
+
+.contenedor_nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.contenedor_nav div{
+    margin: 20px;
+    font-size: 18px;
+}
+
+.contenedor_menu{
+    background-color: rgb(255, 255, 255);
+    height: 84px;
+    width: 1040px;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor_banner{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+.contenedor_qr{
+    background-color: #88b1d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 45px 0px 10px 0px;
+    align-items: center;
+}
+/* ESTE BOTON FUE CREADO CON AYUDA DE LA WEB https://buttonoptimizer.com/*/
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 15px;
+    /* border: 1px solid #8242bf; */
+    border-radius: 10px;
+    background: #2a5bd7;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#d46bff), to(#8242bf));
+    background: -moz-linear-gradient(top, #d46bff, #8242bf);
+    background: linear-gradient(to bottom, #d46bff, #8242bf);
+    font: normal normal normal 19px arial; */
+    color: #ffffff;
+    text-decoration: none;
+    ma
+}
+/* .button:hover,
+.button:focus {
+    border: 1px solid ##a352ef;
+    background: #fe80ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fe80ff), to(#9c4fe5));
+    background: -moz-linear-gradient(top, #fe80ff, #9c4fe5);
+    background: linear-gradient(to bottom, #fe80ff, #9c4fe5);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #8242bf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8242bf), to(#8242bf));
+    background: -moz-linear-gradient(top, #8242bf, #8242bf);
+    background: linear-gradient(to bottom, #8242bf, #8242bf); */
+}
+
+.button2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 15px;
+    border-radius: 9px;
+    background: #358512;
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.contenedor_link_corto{
+    background-color: #0b1736;
+    padding: 45px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar_link{
+    display: flex;
+    justify-content: flex-start;
+    height: 800px;
+    width: 60px;
+}
+
+.link_corto{
+    background-color: aqua;
+}
+
+.der_banner{
+    margin-right: 34px;
+}
+.input_caracteristicas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(162, 162, 162);
+    font-size: 20px;
+    margin-right: 25px;
+    width: 600px;
+    height: 60px;
+    border-radius: 9px;
+    padding-left: 12px;
+}
