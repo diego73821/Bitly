@@ -1,0 +1,37 @@
+.general{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.conteiner h3{
+    font-size: medium;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+.container{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.logo{
+    margin: 45px;
+
+    text-align: center;
+}
+
+.redessociales{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 45px;
+    text-align: center;
+    margin-right:20px ;
+}
